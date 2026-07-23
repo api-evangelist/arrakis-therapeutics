@@ -1,8 +1,25 @@
 aid: arrakis-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arrakis-therapeutics.png
 name: Arrakis Therapeutics
-description: Arrakis Therapeutics is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Arrakis Therapeutics is a clinical-stage biopharmaceutical company pioneering
+  RNA-targeted small molecules (rSMs) — orally available small-molecule medicines designed to
+  bind directly to RNA and reach targets long considered undruggable. Its rSM Platform and rSM
+  Toolkit industrialize the discovery and development of these medicines across proprietary and
+  partnered programs, with a lead candidate addressing the root cause of Type 1 Myotonic
+  Dystrophy (DM1). Based in Waltham, Massachusetts, the company is backed by Canaan Partners.
+  This profile is part of the API Evangelist network; Arrakis Therapeutics does not currently
+  publish a public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/arrakis-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Pharmaceutical
+- RNA
+- Drug Discovery
+- Genetic Medicine
+- Small Molecules
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/arrakis-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.arrakistx.com
+- type: Blog
+  name: News & Press Releases
+  url: https://arrakistx.com/news/press-releases/
+- type: Support
+  name: Contact
+  url: https://arrakistx.com/contact/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
